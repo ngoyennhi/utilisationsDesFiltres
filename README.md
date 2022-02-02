@@ -1,0 +1,2 @@
+# utilisationsDesFiltres
+Cette extension permet de filtre et valider des données, notamment celles provenant de la saisie des utilisateurs. Chaque filtre est défi par un numéro (identifiant), un nom et éventuellement des options et des indicateurs qui précisent le comportement du filtre. Chaque option est définie par un nom qui est utilisé comme clé dans un tableau associatif. Chaque indicateur est défni par une constante ; pour spécifier plusieurs indicateurs, il suffit de sommer les constantes correspondantes.
