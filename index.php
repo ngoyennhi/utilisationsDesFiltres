@@ -18,6 +18,10 @@ switch ($loc) {
     case 'ex4_filterTableau':
         $path = 'ex4_filterTableau.php';
         break;
+    // Ex 5
+        case 'ex5_vue':
+            $path = 'ex5_vue.php';
+            break;
     default:
         $path = 'home.php';
         break;
@@ -40,6 +44,8 @@ switch ($loc) {
     <a href="index.php?loc=ex3_filterEuros">TP Ex3 filter caractères speciaux</a>
     <br>
     <a href="index.php?loc=ex4_filterTableau">TP Ex4 filter tableau</a>
+    <br>
+    <a href="index.php?loc=ex5_vue">TP Ex5 filter formulaire</a>
     <br>
 </body>
 </html>
